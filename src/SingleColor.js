@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-// import rgbToHex from './util';
 
 const SingleColor = ({ rgb, weight, index, hexColor }) => {
   const [alert, setAlert] = useState(false);
